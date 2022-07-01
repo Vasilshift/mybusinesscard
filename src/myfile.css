@@ -1,0 +1,26 @@
+.head {
+    text-align: center;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.img-wrapper {
+    background-color: #dff3f3;
+    padding: 30px;
+    text-align: center;
+}
+
+ul li::marker {
+    color: deepskyblue;
+    font-size: 1.5em;
+}
+
+.subtitle {
+    border-left: 5px solid #269953;
+    padding-left: 10px;
+    color: #65b059;
+    margin-top: 30px;
+}

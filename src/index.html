@@ -6,24 +6,39 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Business Card</title>
+    <link rel="stylesheet" href="myfile.css">
 </head>
 <body>
-<H1>Evgenii Vasilenko. Developer</H1>
-<img src="myphoto.jpg" alt="my photo" height="350" width="350">
-<H2>About me</H2>
-<p>I am cool Java Developer in the cool company</p>
-<H2>Skills</H2>
+<header class="head">
+    <div >
+        <a href="#about" class=""header-link>About me</a>
+        <a href="#contacts" class="header-link">Contacts</a>
 
-<ul>
-    <li>Java</li>
-    <li>Spring</li>
-    <li>Kafka</li>
-    <li>Microservicies</li>
-    <li>etc...</li>
-</ul>
-<h2>Contacts</h2>
-<p>Tel<a href="tel:+7000000">+ 7 000 000</a></p>
-<p>Email
-    <a href="mailto:evvbelgrad@gmail.com">evvbelgrad@gmail.com</a></p>
+    </div>
+</header>
+
+<main class="main">
+    <H1>Evgenii Vasilenko. Developer</H1>
+    <div class="img-wrapper">
+        <img src="myphoto.jpg" alt="my photo" height="350" width="350">
+    </div>
+
+    <H2>About me</H2>
+    <p>I am cool Java Developer in the cool company</p>
+    <H2>Skills</H2>
+
+    <ul>
+        <li>Java</li>
+        <li>Spring</li>
+        <li>Kafka</li>
+        <li>Microservicies</li>
+        <li>etc...</li>
+    </ul>
+
+    <h2>Contacts</h2>
+    <p>Tel<a name="about" href="tel:+7000000">+ 7 000 000</a></p>
+    <p>Email<a name="contacts" href="mailto:evvbelgrad@gmail.com">evvbelgrad@gmail.com</a></p>
+</main>
 </body>
 </html>
+
